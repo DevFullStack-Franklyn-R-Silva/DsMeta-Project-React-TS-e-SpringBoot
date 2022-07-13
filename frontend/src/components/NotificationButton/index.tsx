@@ -1,6 +1,6 @@
-import icon from "../../assets/img/notification-icon.svg"
+import icon from "../../assets/img/notification-icon.svg";
 
-import "./styles.css"
+import "./styles.css";
 
 const NotificationButton = () => {
     return (
@@ -10,4 +10,4 @@ const NotificationButton = () => {
     )
 }
 
-export default NotificationButton
+export default NotificationButton;
