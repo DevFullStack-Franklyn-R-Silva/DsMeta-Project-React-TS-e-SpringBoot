@@ -1,7 +1,17 @@
-branches:
-    only:
-        - main
-before_script:
-    - chmod +x ./backend/.mvn
+language: java
+
+cache: yarn
+
+install:
+    - yarn install
+
 script:
-    - bash boot.sh
+    - yarn test
+    - yarn run build
+
+deploy:
+    provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    on:
+        branch: main
