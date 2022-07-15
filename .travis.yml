@@ -1,5 +1,9 @@
 language: java
 jdk: oraclejdk17
 
+install:
+    - yarn install
+
 script:
-    - ./mvnw clean install -B
+    - yarn test
+    - yarn run build
