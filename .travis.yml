@@ -7,8 +7,3 @@ branches:
 
 install:
     - yarn install
-
-before_script:
-    - chmod +x ./backend/marven
-script:
-    - bash boot.sh
