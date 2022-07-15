@@ -1,8 +1,14 @@
 language: java
 jdk: oraclejdk17
 
+branches:
+    only:
+        - main
+
 install:
     - yarn install
 
+before_script:
+    - chmod +x ./backend/.mvn
 script:
     - bash boot.sh
