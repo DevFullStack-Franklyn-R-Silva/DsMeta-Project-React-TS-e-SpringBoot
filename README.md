@@ -2,6 +2,7 @@
 
 
 ![Frontend](https://img.shields.io/badge/React-Typescript-orange?style=plastic&logo=react)
+![Backend](https://img.shields.io/badge/SpringBoot-Java-black?style=plastic&logo=springboot)
 
 Treinamento fullstack oferecido pelo canal DevSuperior do dia 11/07/22 a 17/07/22.
 
